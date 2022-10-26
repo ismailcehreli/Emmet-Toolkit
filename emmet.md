@@ -115,15 +115,13 @@ Emmet özelliğini daha hızlı kod blokları yazmak için kullanırız.
     <!-- Sıralı numaralı class tanımlamalarında class adındaki sayıyı istediğimiz sayıdan başlatmak için @ operatörünü kullanırız. -->
 
     <!-- 3'den başlayacak şekilde sıralı class oluştur başlangıç - Kod Satırı : ul>li.item$@3*5 -->
-
-<ul>
-<li class="classadi3">List 3</li>
-<li class="classadi4">List 4</li>
-<li class="classadi5">List 5</li>
-<li class="classadi6">List 6</li>
-<li class="classadi7">List 7</li>
-</ul>
-
+    <ul>
+    <li class="classadi3">List 3</li>
+    <li class="classadi4">List 4</li>
+    <li class="classadi5">List 5</li>
+    <li class="classadi6">List 6</li>
+    <li class="classadi7">List 7</li>
+    </ul>
     <!-- 3'den başlayacak şekilde sıralı class oluştur bitiş -->
 
 
