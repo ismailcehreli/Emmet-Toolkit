@@ -211,7 +211,7 @@ ratione culpa, architecto reprehenderit ipsa dignissimos sint vel deleniti itaqu
 
 &nbsp;
 
-### **6) . ile etiket ve class oluşturma :** Aşağıdaki kod ile bir adet div oluşturacağız lakin bu div'e henüz bir class adı tanımlamayacağız.
+### **6) "." ile etiket ve class oluşturma :** Aşağıdaki kod ile bir adet div oluşturacağız lakin bu div'e henüz bir class adı tanımlamayacağız.
 
 &nbsp;
 
@@ -338,7 +338,8 @@ ul>li.item$@3*5
 &nbsp;
 
 &nbsp;
-**7) # -> Öğe için id oluşturur.**
+
+### **7) "#" -> Öğe için id oluşturur.**
 
 &nbsp;
 
@@ -464,7 +465,8 @@ ul>li#id$@-*5
 &nbsp;
 
 &nbsp;
-**8) {} -> Öğe içerisinde metin oluşturmak için kullanılır. Örnek kullanım aşağıdaki gibidir.**
+
+### **8) {} -> Öğe içerisinde metin oluşturmak için kullanılır. Örnek kullanım aşağıdaki gibidir.**
 
 &nbsp;
 
