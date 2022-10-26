@@ -1,4 +1,4 @@
-Emmet özelliğini daha hızlı kod blokları yazmak için kullanırız.
+    ### Emmet özelliğini daha hızlı kod blokları yazmak için kullanırız.
 
        1) + -> Kardeş öğe
        2) > -> İçinde öğe
@@ -10,7 +10,7 @@ Emmet özelliğini daha hızlı kod blokları yazmak için kullanırız.
        8) {} öğeye metin eklemek için kullanılır.
 
 
-    1) + Kardeş öğe kullanımı :
+    **1) + Kardeş öğe kullanımı :**
     Aynı anda p ve h etiketi oluşturmak istiyoruz. Html kod blokuna p+h yazdıktan sonra enter tuşuna basıyoruz.
     Bastıktan sonra oluşacak kod bloku aşağıdaki gibidir. Etiket sıralaması soldan sağa şeklindedir.-->
 
@@ -20,7 +20,7 @@ Emmet özelliğini daha hızlı kod blokları yazmak için kullanırız.
     <!-- Kardeş öğe kullanımı bitiş -->
 
 
-    2) İçinde öğe kullanımı :
+    **2) İçinde öğe kullanımı :**
     Bir etiket içerisinde aynı etiket kullanımı için tercih edilir. Örneğin bir sıralı bir tablo oluşturmak için kullanmamız gereken kod satırı aşağıdaki gibidir.
 
 
@@ -31,7 +31,7 @@ Emmet özelliğini daha hızlı kod blokları yazmak için kullanırız.
     <!-- İçinde öğe kullanımı başlangıç bitiş -->
 
 
-    3) ^ -> Yukarı çık ve öğe oluştur kullanımı :
+    **3) ^ -> Yukarı çık ve öğe oluştur kullanımı :**
     Bir liste oluştururken liste etiketleri dışında oluşturmak istediğimiz bir etiket varsa ^ kullanırız. Aşağıdaki kod satırında editör öncelikle ul ve ul altında li etiketi oluşturduktan sonra ul etiketi sonrasında h2 ve p etiketi oluşturacaktır.
 
     <!-- Yukarı çık ve öğe oluştur başlangıç - Kod Satırı : ul>li^h2+p -->
@@ -43,7 +43,7 @@ Emmet özelliğini daha hızlı kod blokları yazmak için kullanırız.
     <!-- Yukarı çık ve öğe oluştur başlangıç - bitiş -->
 
 
-    4) * -> Birden fazla etiket oluşturma kullanımı
+    **4) * -> Birden fazla etiket oluşturma kullanımı**
     Bir etiketten aynı anda birden fazla oluşturmak istiyorsak * kullanırız. Aşağıdaki kod satırında p etiketinden 5 adet oluşturağız.
 
     <!-- Birden fazla etiket paragraf oluşturma başlangıç - Kod satırı : p*5 -->
@@ -55,7 +55,7 @@ Emmet özelliğini daha hızlı kod blokları yazmak için kullanırız.
     <!-- pBirden fazla etiket paragraf oluşturma bitiş -->
 
 
-    5) lorem -> Anlamsız text içerik oluşturur. Aşağıdaki komut satırında p etiketi içerisine lorem ile text içerik yazdıracağız.
+    **5) lorem -> Anlamsız text içerik oluşturur. Aşağıdaki komut satırında p etiketi içerisine lorem ile text içerik yazdıracağız.**
 
     <!-- Lorem text oluşturma başlangıç - Kod satırı : p>lorem -->
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias beatae vel facere quasi amet totam adipisci
@@ -79,7 +79,7 @@ Emmet özelliğini daha hızlı kod blokları yazmak için kullanırız.
     <!-- 100 kelimelik loram satırı bitiş p>lorem100-->
 
 
-    6) . -> etiket için class oluşturmak için kullanılır. Aşağıdaki kod ile bir adet div oluşturacağız lakin bu div'e henüz bir class adı tanımlamayacağız.
+    **6) . -> etiket için class oluşturmak için kullanılır. Aşağıdaki kod ile bir adet div oluşturacağız lakin bu div'e henüz bir class adı tanımlamayacağız.**
 
     <!-- div oluşturma başlangıç - Kod Satırı : .container -->
     <div class="">Class</div>
@@ -125,7 +125,7 @@ Emmet özelliğini daha hızlı kod blokları yazmak için kullanırız.
     <!-- 3'den başlayacak şekilde sıralı class oluştur bitiş -->
 
 
-    7) # -> Öğe için id oluşturur.
+    **7) # -> Öğe için id oluşturur.**
 
     <!-- Id oluşturma başlangıç - Kod Satırı : p# -->
     <p id="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non autem magni ratione impedit quam doloribus
@@ -169,7 +169,7 @@ Emmet özelliğini daha hızlı kod blokları yazmak için kullanırız.
     <!-- Sondan başa doğru sıralı id oluşturma için ul>li#id$@-*5 bitiş -->
 
 
-    8) {} -> Öğe içerisinde metin oluşturmak için kullanılır. Örnek kullanım aşağıdaki gibidir.
+    **8) {} -> Öğe içerisinde metin oluşturmak için kullanılır. Örnek kullanım aşağıdaki gibidir.**
 
     <!-- Öğe içerisinde metin oluşturma başlangıç - Kod Satırı : ul>li#idadi$.classadi${deneme$}*5 -->
     <ul>
