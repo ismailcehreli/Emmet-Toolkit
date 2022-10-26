@@ -1,16 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+    <!-- Emmet özelliğini daha hızlı kod blokları yazmak için kullanırız.
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emmet Kullanımı</title>
-</head>
-
-<body>
-    <!-- Emmet özelliğini daha hızlı kod blokları yazmak için kullanırız. 
-    
        1) + -> Kardeş öğe
        2) > -> İçinde öğe
        3) ^ -> Yukarı çık ve öğe oluştur.
@@ -31,7 +20,7 @@
     <!-- p+h bitiş -->
 
 
-    <!-- > 2) İçinde öğe kullanımı  
+    <!-- > 2) İçinde öğe kullanımı
     Bir etiket içerisinde aynı etiket kullanımı için tercih edilir. Örneğin bir sıralı bir tablo oluşturmak için kullanmamız gereken kod satırı aşağıdaki gibidir.
     -->
 
@@ -126,17 +115,17 @@
     <!-- Sıralı numaralı class tanımlamalarında class adındaki sayıyı istediğimiz sayıdan başlatmak için @ operatörünü kullanırız. -->
 
     <!-- 3'den başlayacak şekilde sıralı class oluştur ul>li.item$@3*5
- başlangıç-->
-    <ul>
-        <li class="classadi3">List 1</li>
-        <li class="classadi4">List 2</li>
-        <li class="classadi5">List 3</li>
-        <li class="classadi6">List 4</li>
-        <li class="classadi7">List 5</li>
-    </ul>
-    <!-- 3'den başlayacak şekilde sıralı class oluştur ul>li.item$@3*5
- bitiş-->
 
+başlangıç-->
+<ul>
+<li class="classadi3">List 1</li>
+<li class="classadi4">List 2</li>
+<li class="classadi5">List 3</li>
+<li class="classadi6">List 4</li>
+<li class="classadi7">List 5</li>
+</ul>
+<!-- 3'den başlayacak şekilde sıralı class oluştur ul>li.item$@3*5
+ bitiş-->
 
     <!-- 7) # -> Öğe için id oluşturur. -->
 
@@ -192,7 +181,3 @@
         <li id="idadi5" class="classadi5">deneme5</li>
     </ul>
     <!-- ul>li#idadi$.classadi${deneme$}*5 bitiş -->
-
-</body>
-
-</html>
